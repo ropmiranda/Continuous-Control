@@ -30,7 +30,7 @@ In order to run this code, install the following dependencies:
 ## Download the environment
 For this project, you will not need to install Unity - this is because we have already built the two environments for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:
 
-Version 1: One (1) Agent
+### Version 1: One (1) Agent
 
 Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
 
@@ -40,7 +40,7 @@ Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/
 
 Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
 
-Version 2: Twenty (20) Agents
+### Version 2: Twenty (20) Agents
 
 Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
 
@@ -58,4 +58,4 @@ $ jupyter notebook
 After Jupyter Notebook has opened, navegate to the directory `continuous-control/` and double click in Continuous_Control.ipynb. There you can follow the instructions to execute the solution. 
 
 ## Version 2
-The second version is composed by twenty agents instead of only one. The second version is useful for algorithms like PPO, A3C, and D4PG that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience. 
+The second version is composed by twenty agents instead of only one. The second version is useful for algorithms like PPO, A3C, and D4PG that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience. The barrier for solving the second version of the environment is slightly different, to take into account the presence of many agents. In particular, your agents must get an average score of +30 (over 100 consecutive episodes, and over all agents).
